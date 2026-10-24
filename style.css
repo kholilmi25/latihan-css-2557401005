@@ -1,62 +1,135 @@
-/* ===================================
-   CONTOH JAWABAN — style.css (Pemula)
-   =================================== */
 
 /* 1. Body */
 body {
+  background-color: #f5eee6;
+  color: #3e2723;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
 }
 
 /* 2. Header */
 #header {
+  background-color: #4e342e;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
 }
 
 .logo {
+  font-size: 32px;
+  margin: 0 0 15px;
+  color: #ffcc80;
 }
 
 /* 3. Link menu navigasi */
 .menu-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .menu-link:hover {
+  color: #ffcc80;
+  text-decoration: underline;
 }
 
 /* 4. Section */
 .section {
+  background-color: white;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 12px;
+  max-width: 900px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
 /* 5. Judul section */
 .judul {
+  color: #6d4c41;
+  border-bottom: 3px solid #bc8a5f;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* 6. Tombol */
 .tombol {
+  display: inline-block;
+  background-color: #795548;
+  color: white;
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 .tombol:hover {
+  background-color: #4e342e;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* 7. Kotak menu */
 .kotak {
+  background-color: #fffaf4;
+  border: 1px solid #d7ccc8;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.kotak:hover {
+  transform: translateY(-3px);
 }
 
 .kotak h3 {
+  color: #795548;
+  margin-top: 0;
 }
 
 /* 8. Kotak spesial */
 .spesial {
+  background-color: #fff0d5;
+  border: 2px solid #d4a056;
+  border-left: 6px solid #a66a2c;
 }
 
 /* 9. Tabel */
 .tabel {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
 }
 
 .tabel th,
 .tabel td {
+  border: 1px solid #bcaaa4;
+  padding: 12px 15px;
+  text-align: left;
 }
 
 .tabel th {
+  background-color: #6d4c41;
+  color: white;
+}
+
+.tabel tr:nth-child(even) {
+  background-color: #f5eee6;
 }
 
 /* 10. Footer */
 #footer {
+  background-color: #4e342e;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: 30px;
+}
+
+#footer p {
+  margin: 0;
 }
